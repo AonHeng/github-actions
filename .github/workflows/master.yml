@@ -17,5 +17,5 @@ jobs:
         server: ftp.samkirkland.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        port: 2121
+        port: ${{ secrets.ftp_port }}
         server-dir: /public_html/github-actions/
