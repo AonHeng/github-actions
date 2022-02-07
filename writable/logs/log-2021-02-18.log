@@ -1,0 +1,14 @@
+CRITICAL - 2021-02-18 01:20:12 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 /home/demowebs/domains/demo-web-space.com/public_html/codeigniter4/app/Controllers/ApiDemo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/demowebs/...', 37, Array)
+#1 /home/demowebs/domains/demo-web-space.com/public_html/codeigniter4/system/CodeIgniter.php(914): App\Controllers\ApiDemo->demo1()
+#2 /home/demowebs/domains/demo-web-space.com/public_html/codeigniter4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiDemo))
+#3 /home/demowebs/domains/demo-web-space.com/public_html/codeigniter4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/demowebs/domains/demo-web-space.com/public_html/codeigniter4/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-18 01:21:59 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 /home/demowebs/domains/demo-web-space.com/public_html/codeigniter4/app/Controllers/ApiDemo.php(39): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/demowebs/...', 39, Array)
+#1 /home/demowebs/domains/demo-web-space.com/public_html/codeigniter4/system/CodeIgniter.php(914): App\Controllers\ApiDemo->demo1()
+#2 /home/demowebs/domains/demo-web-space.com/public_html/codeigniter4/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiDemo))
+#3 /home/demowebs/domains/demo-web-space.com/public_html/codeigniter4/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/demowebs/domains/demo-web-space.com/public_html/codeigniter4/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
